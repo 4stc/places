@@ -1,0 +1,19 @@
+.post{
+	display: none;
+}
+#places a{
+	font-size: .66em;
+	color: #EEDDBBCC;
+	padding-left: .5%;
+	text-decoration: underline;
+}
+#places input{
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+#places label{
+	font-size: 120%;
+}
+#import{
+	display: none;
+}
