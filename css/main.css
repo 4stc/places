@@ -1,0 +1,131 @@
+html,body{
+	font: 400 108% serif;
+	background: linear-gradient(220deg,#483333 35%,#333333 75%) no-repeat;
+	background-size: cover;
+	color: #CCAA99;
+	height: 100%;
+	margin: 0;
+}
+
+h1{
+	font-size: 105%;
+	display: inline;
+	vertical-align: middle;
+	color: #EEDDCC;
+	text-shadow: 2px 2px 5px #000000;
+}
+h2{
+	font-size: 103%;
+	color: #CC9988;
+	padding-left: .8%;
+}
+h3{
+	font-size: 101%;
+	color: #B7ABB7;
+	padding-left: 1.2%;
+}
+
+a{
+	font-size: 102%;
+	color: #CBCBBB;
+	text-decoration: none;
+}
+a: hover{color: #EEEEEE}
+
+img{
+	margin-left: 4%;
+	margin-right: .8%;
+}
+
+video{
+	display: block;
+	max-width: 100%;
+	width: 98%;
+	padding-left: 1%;
+}
+
+input{
+	background-color: #EEDDE0CC;
+	color: #000000;
+}
+
+#main{
+	min-height: 100%;
+	position: relative;
+}
+
+#nav{
+	font: 400 115% sans;
+	color: #999000;
+	padding: 35pt 8% 35pt 8%;
+}
+#nav img{
+	width: 5.5%;
+	margin: 2.3% 0% 3% 1.5%;
+	vertical-align: middle;
+}
+#nav a{
+	font-size: 83.5%;
+	margin-left: 1.8%;
+}
+#nav i{
+	font-size: .55em;
+	color: #EEDDBBCC;
+	padding-left: .5%;
+}
+
+#body{padding: 0pt 5% 60pt 5%}
+#foot a{font-size: 85%}
+
+#foot{
+	font-size: 70%;
+	color: #AA8877;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+}
+#foot a{
+	color: #999888;
+	text-decoration: underline;
+}
+
+.btn{
+	font-size: 85.5%;
+	background-color: #77779988;
+	color: #DDAA88;
+	padding: 2px 3px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 3px 5px 0 #887788AA;
+}
+.btn:hover{
+	background-color: #77779988;
+	color: #EEBB88;
+	box-shadow: 0 8px 15px 0 rgba(0,0,0,0.2), 0 5px 8px 0 #887788FF;
+}
+
+@media all and (min-width: 0px){
+	#nav{padding: 28pt 15% 28pt 12.5%}
+	#body{padding: 0pt 12% 60pt 12%}
+}
+@media all and (min-width: 800px){
+	#nav{padding: 28pt 28% 28pt 20.5%}
+	#body{padding: 0pt 20% 60pt 20%}
+}
+@media all and (min-width: 1000px){
+	#nav{padding: 28pt 25% 28pt 20.5%}
+	#body{padding: 0pt 20% 60pt 20%}
+}
+@media all and (min-width: 1200px){
+	#nav{padding: 28pt 37% 28pt 30.5%}
+	#body{padding: 0pt 30% 60pt 30%}
+}
+@media all and (min-width: 1400px){
+	#nav{padding: 28pt 32% 28pt 28.5%}
+	#body{padding: 0pt 28% 60pt 28%}
+}
+@media all and (min-width: 1600px){
+	#nav{padding: 28pt 37% 28pt 32.5%}
+	#body{padding: 0pt 32% 60pt 32%}
+}
